@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#title#</title>
+    <meta charset="UTF-8" />
+    <link ref="stylesheet" href="/style.css" />
+  </head>
+  <body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/users/Anthony">User: Anthony</a>
+  </nav>
+
+  <div class="card">
+    <h2>Form</h2>
+    <form action="/contact" method="POST">
+      <label for="name">Your name</label>
+      <input id="name" name="name" placeholder="Ant Un" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Hello!"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  </body>
+</html>
